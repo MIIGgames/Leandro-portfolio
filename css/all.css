@@ -2,6 +2,12 @@
 
 /* CSS */
 @import "menu.css";
+@import "banner.css";
+@import "section-1.css";
+@import "section-2.css";
+@import "section-3.css";
+@import "paragrafo.css";
+@import "contato.css";
 
 
 
@@ -13,4 +19,23 @@
     font-family: "Roboto";
     text-decoration: none;
     list-style: none;
+}
+  
+
+.linha {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.linha h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.linha hr {
+    width: 50%;
+    padding: 0.5px;
+    background-color: #000;
 }
